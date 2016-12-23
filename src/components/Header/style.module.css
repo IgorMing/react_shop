@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  border: 2px solid black;
+  margin: 0 auto;
+}
+
+.logo {
+  border: 2px solid red;
+  width: 40%;
+}
+
+.logo__title {
+  display: inline-block;
+  font: 30px/110px 'flatFormLight', sans-serif;
+  color: grey;
+  text-decoration: none;
+}
+
+.header__section {
+  border: 2px solid blue;
+  width: 60%;
+}
+
+.registration::after {
+  content: ' | ';
+
+}
