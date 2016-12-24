@@ -8,3 +8,8 @@
   min-width: 414px;
   margin: 0 auto;
 }
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}

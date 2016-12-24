@@ -6,7 +6,7 @@ export default class Products extends React.Component {
   items = [
     {
       id: 1,
-      imgUrl: './src/assets/HalloweenCandle.jpg',
+      imgUrl: './assets/HalloweenCandle.jpg',
       lotName: 'Halloween Candle',
       startPrice: 100.00,
       currency: 'UAH',
@@ -20,7 +20,7 @@ export default class Products extends React.Component {
     },
     {
       id: 2,
-      imgUrl: './src/assets/pillows.jpg',
+      imgUrl: './assets/pillows.jpg',
       lotName: 'Colorful pillows',
       startPrice: 100.00,
       currency: 'UAH',
@@ -34,7 +34,7 @@ export default class Products extends React.Component {
     },
     {
       id: 3,
-      imgUrl: '../../assets/NY_toys.jpg',
+      imgUrl: './assets/NY_toys.jpg',
       lotName: 'Hand-made new year toys',
       startPrice: 30.00,
       currency: 'UAH',
@@ -48,7 +48,7 @@ export default class Products extends React.Component {
     },
     {
       id: 4,
-      imgUrl: '../../assets/HalloweenFrontDoor.jpg',
+      imgUrl: './assets/HalloweenFrontDoor.jpg',
       lotName: 'Front-door halloween decor',
       startPrice: 150.00,
       currency: 'UAH',
@@ -69,13 +69,13 @@ export default class Products extends React.Component {
           {this.items.map(item => {
             console.log(item.imgUrl);
             return (
-              <Link className={styles.item} key={item.id} to={`${item.id}`}>
-                <img src={item.imgUrl} />
+              <div className={styles.item} key={item.id} to={`${item.id}`}>
+                <Link className='' to={`${item.id}`}><img src={item.imgUrl} /></Link>
                 <p>Price: {item.startPrice} {item.currency}</p>
-                <h3>{item.lotName}</h3>
+                <h3><Link to={`${item.id}`}>{item.lotName}</Link></h3>
                 <p>{item.description}</p>
-                {/* <Link to={`${item.id}`}>More... </Link> */}
-              </Link>
+                <Link to={`${item.id}`}>More... </Link>
+              </div>
             )
           })}
         </div>

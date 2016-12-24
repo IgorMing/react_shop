@@ -18,11 +18,11 @@ class App extends Component {
     return (
       <div className={styles.root}>
         <div className={styles.wrapper}>
-          <Header className={styles.wrapper} />
-          <Navigation className={styles.wrapper} />
+          <Header />
+          <Navigation />
         </div>
         <Banner />
-        <div className={styles.wrapper}>
+        <div className={styles.content}>
           <Products />
         </div>
       </div>

@@ -1,15 +1,13 @@
 .item {
-  min-height: 430px;
-  position: relative;
+  min-height: 340px;
 }
 
 .title {
-  font-family: 'FlatForm', Arial, sans-serif;
+  font-family: FlatForm,Arial,sans-serif;
   font-size: 24px;
   font-weight: 100;
-  position: absolute;
-  bottom: 80px;
-  width: 100%;
+  position: relative;
+  bottom: 100px;
   text-align: center;
 }
 

@@ -20,6 +20,7 @@ var config = getConfig({
   isDev: isDev || isTest,
   in: join(src, 'app.js'),
   out: dest,
+  clearBeforeBuild: '!(images|assets)',
   html(context) {
     return {
       'index.html': context.defaultTemplate({
@@ -64,16 +65,6 @@ config.module.loaders.push({
   loader: 'style!css'
 });
 // CSS modules
-
-// config.module.loaders.push({
-//   test: /\.(woff|woff2|ttf|eot)$/,
-//   loader: 'url'
-// });
-
-// config.module.loaders.push({
-//   test: /\.(jpe?g|png|gif)(\?.+)?$/,
-//   loader: 'url',
-// });
 
 // postcss
 config.postcss = [].concat([
