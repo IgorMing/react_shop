@@ -10,6 +10,9 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Banner from './components/Banner';
 import Products from './components/Products';
+import CompanyDesciption from './components/CompanyDesciption';
+import Achivements from './components/Achivements';
+import Footer from './components/Footer';
 
 const root = document.getElementById('root');
 
@@ -24,7 +27,10 @@ class App extends Component {
         <Banner />
         <div className={styles.content}>
           <Products />
+          <CompanyDesciption />
+          <Achivements />
         </div>
+        <Footer />
       </div>
     );
   }

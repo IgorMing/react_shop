@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "imgUrl": "./HalloweenCandle.jpg",
+    "imgUrl": "./images/HalloweenCandle.jpg",
     "lotName": "Halloween Candle",
     "startPrice": 100.00,
     "currency": "UAH",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "imgUrl": "./pillows.jpg",
+    "imgUrl": "./images/pillows.jpg",
     "lotName": "Colorful pillows",
     "startPrice": 100.00,
     "currency": "UAH",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "imgUrl": "./NY_toys.jpg",
+    "imgUrl": "./images/NY_toys.jpg",
     "lotName": "Hand-made new year toys",
     "startPrice": 30.00,
     "currency": "UAH",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "imgUrl": "./HalloweenFrontDoor.jpg",
+    "imgUrl": "./images/HalloweenFrontDoor.jpg",
     "lotName": "Front-door halloween decor",
     "startPrice": 150.00,
     "currency": "UAH",
