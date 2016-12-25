@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style.module.css';
-import BannerImage from '../../assets/decor_main.jpg'
+import BannerImage from './decor_main.jpg'
 
 export default class Header extends React.Component {
   render() {
