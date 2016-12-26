@@ -3,11 +3,11 @@
 }
 
 .title {
-  font-family: FlatForm,Arial,sans-serif;
-  font-size: 24px;
+  font-family: FlatForm, Arial, sans-serif;
+  font-size: 3rem;
   font-weight: 100;
   position: relative;
-  bottom: 100px;
+  bottom: 7rem;
   text-align: center;
 }
 

@@ -1,8 +1,11 @@
 import React from 'react';
 import Link from 'react-router/lib/Link';
+import SVG from 'svg-inline-react';
 
 import styles from './style.module.css';
-import sprites from './sprites.module.css';
+import facebook from '!!svg-inline!./facebook.svg';
+import instagram from '!!svg-inline!./instagram.svg';
+import twitter from '!!svg-inline!./twitter.svg';
 
 export default class Footer extends React.Component {
   render() {
@@ -16,14 +19,14 @@ export default class Footer extends React.Component {
           </div>
           <div className='styles.social'>
             <p>Social pages</p>
-            <Link>
-              <i className={`${ sprites.sprite } ${sprites['facebook']}`} />
+            <Link className={styles.icon}>
+              <SVG src={facebook} />
             </Link>
-            <Link>
-              <i className={`${ sprites.sprite } ${sprites['instagram']}`} />
+            <Link className={styles.icon}>
+              <SVG src={instagram} />
             </Link>
-            <Link>
-              <i className={`${ sprites.sprite } ${sprites['twitter']}`} />
+            <Link className={styles.icon}>
+              <SVG src={twitter} />
             </Link>
           </div>
         </div>

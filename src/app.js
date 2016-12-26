@@ -22,6 +22,8 @@ class App extends Component {
       <div className={styles.root}>
         <div className={styles.wrapper}>
           <Header />
+        </div>
+        <div className={styles.content}>
           <Navigation />
         </div>
         <Banner />

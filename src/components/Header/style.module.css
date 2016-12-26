@@ -1,11 +1,9 @@
 .header {
   display: flex;
-  border: 2px solid black;
   margin: 0 auto;
 }
 
 .logo {
-  border: 2px solid red;
   width: 40%;
 }
 
@@ -17,11 +15,19 @@
 }
 
 .header__section {
-  border: 2px solid blue;
   width: 60%;
+  font-size: 1.3rem;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .registration::after {
   content: ' | ';
+}
 
+.email_address {
+  color: #ee503d;
+  text-decoration: none;
 }

@@ -9,9 +9,9 @@ export default class Header extends React.Component {
           <a href='#' className={styles.logo__title}>DECOR AUCTION</a>
         </div>
   			<div className={styles.header__section}>
-  				<p className='email_text'>
+  				<p className={styles.email_text}>
   					If you have any questions, we waiting for your letters:
-  					<a href='#' className='email_address'>decorauction@mail.ru</a>
+  					<a href='#' className={styles.email_address}>decorauction@mail.ru</a>
   				</p>
   				<div>
   					<span className={styles.registration}>Registration</span>

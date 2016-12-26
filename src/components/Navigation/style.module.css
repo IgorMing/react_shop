@@ -2,13 +2,19 @@
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  border-top: 1px solid #e7e7e7;
 }
 
 .item {
   padding: 0 .5em;
   text-decoration: none;
   color: #4d4d4d;
+  display: inline-block;
+  text-align: center;
 
   &:hover {
     color: #ee503d;
